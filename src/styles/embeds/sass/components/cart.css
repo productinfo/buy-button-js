@@ -72,6 +72,10 @@
   width: 100%;
 }
 
+.shopify-buy__cart-scroll--small {
+  padding: 70px 0 190px 0;
+}
+
 .shopify-buy__cart-items {
   overflow: hidden;
   overflow-y: auto;
@@ -161,6 +165,23 @@
   padding-top: 10px;
   text-align: center;
   color: var(--color-title);
+}
+
+.shopify-buy__cart__note {
+  padding-top: 10px;
+}
+
+.shopify-buy__cart__note__description {
+  float: left;
+  font-size: 11px;
+  color: #4c4c4c;
+}
+
+.shopify-buy__cart__note__text-area {
+  resize: none;
+  font-size: 11px;
+  width: 100%;
+  color: #4c4c4c;
 }
 
 .shopify-buy__cart-empty-text {
